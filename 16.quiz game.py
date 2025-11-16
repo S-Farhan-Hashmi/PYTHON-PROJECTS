@@ -1,6 +1,6 @@
 print("Hello,Welcom to quiz world")
 a=input("Enter your name : ").title()
-questions=questions = {
+questions= {
     "1. What is the capital of Australia?": [
         "A) Sydney", 
         "B) Melbourne", 
@@ -62,7 +62,7 @@ questions=questions = {
         "D) Steve Jobs"
     ]
 }
-answers=answers = {
+answers={
     "1. What is the capital of Australia?": "D",
     "2. Who wrote the play Romeo and Juliet?": "B",
     "3. What is the chemical symbol for Gold?": "C",
@@ -80,4 +80,5 @@ def main():
         b=input("Enter your desired task :  ").lower()
         if b=="start":
             
+
 
